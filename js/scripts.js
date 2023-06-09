@@ -35,7 +35,7 @@ function displaySubstitutedNumbers() {
   const userInput = parseInt(document.getElementById("userInput").value);
   const substitutedNumbers = generateList(userInput);
   const outputList = document.getElementById("outputList");
-
+  //clears results from previous input
   outputList.innerHTML = "";
 
   substitutedNumbers.forEach((number) => {
@@ -43,4 +43,6 @@ function displaySubstitutedNumbers() {
     listItem.textContent = number;
     outputList.appendChild(listItem);
   });
+  //clears input field
+  document.getElementById("userInput").value = "";
 }
