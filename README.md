@@ -1,5 +1,46 @@
 <!-- README -->
+# _MrRobogersNeighborhood_
+
+#### By _**Richard Lemmond**_
+
+
+## Description
+
+_"Mr. Roboger's Neighborhood" is a web application that accepts a numerical input from the user and generates a list from 0 to the inputted number. The list adheres to specific substitution rules: Numbers containing a 1 are replaced with "Beep!", those containing a 2 with "Boop!", and those containing a 3 with "Won't you be my neighbor?". These substitutions follow a defined hierarchy. The application is built using HTML, CSS, and JavaScript, implementing concepts such as loops, arrays, conditionals, and Test-Driven Development. It features an interactive interface, allowing users to continually input new numbers and receive the corresponding list of substitutions._
+
+
+## GitHub Page Link
+
+
+
+## Technologies Used
+
+* _HTML_
+* _JavaScript_
+* _CSS_
+
+
+## Setup/Installation Requirements
+
+* _Clone the repository: _(https://github.com/RLemmond/MrRobogersNeighborhood.git)_
+* _Open the project in your preferred code editor._
+* _Launch the index.html file in a web browser._
+
+
+## Known Bugs
+
+* _There are currently no known bugs or issues with this project._
+
+
+## License
+
+_This project is not licensed. Feel free to explore, modify, and distribute the code as desired._
+
+Copyright (c) _2023_ _Richard Lemmond_
+
+
 <!-- Tests -->
+
 Describe: beepBoop()
 
 Test: "It should return an array of numbers from 0 to the users inputed number"
