@@ -1,6 +1,3 @@
-
-//Buisness logic //
-
 function substituteNumber(text) {
   const values = text.split(", ");
 
@@ -29,13 +26,11 @@ const generateList = (num) => {
   return substitutedNumbers;
 };
 
-// User logic //
-
 function displaySubstitutedNumbers() {
   const userInput = parseInt(document.getElementById("userInput").value);
   const substitutedNumbers = generateList(userInput);
   const outputList = document.getElementById("outputList");
-  //clears results from previous input
+
   outputList.innerHTML = "";
 
   substitutedNumbers.forEach((number) => {
@@ -43,6 +38,6 @@ function displaySubstitutedNumbers() {
     listItem.textContent = number;
     outputList.appendChild(listItem);
   });
-  //clears input field
+
   document.getElementById("userInput").value = "";
 }

@@ -1,4 +1,3 @@
-<!-- README -->
 # _MrRobogersNeighborhood_
 
 #### By _**Richard Lemmond**_
