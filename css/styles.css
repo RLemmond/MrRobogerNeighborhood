@@ -1,12 +1,15 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  background-color: #cadd95;
 }
 
 h1 {
   text-align: center;
+  color: rgb(95, 75, 50);
 }
 
 .output-container {
   margin-top: 20px;
+  color: rgb(105, 79, 47);
 }
