@@ -22,7 +22,7 @@ _"Mr. Roboger's Neighborhood" is a web application that accepts a numerical inpu
 
 ## Setup/Installation Requirements
 
-* _Clone the repository: _(https://github.com/RLemmond/MrRobogersNeighborhood.git)_
+* _Clone the repository:_ _(https://github.com/RLemmond/MrRobogersNeighborhood.git)_
 * _Open the project in your preferred code editor._
 * _Launch the index.html file in a web browser._
 
@@ -39,7 +39,7 @@ _This project is not licensed. Feel free to explore, modify, and distribute the 
 Copyright (c) _2023_ _Richard Lemmond_
 
 
-<!-- Tests -->
+## Tests
 
 Describe: beepBoop()
 
