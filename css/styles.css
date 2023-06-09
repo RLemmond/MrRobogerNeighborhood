@@ -1,15 +1,15 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #cadd95;
+  background-color: #463b23;
 }
 
 h1 {
   text-align: center;
-  color: rgb(95, 75, 50);
+  color: rgb(206, 174, 135);
 }
 
 .output-container {
   margin-top: 20px;
-  color: rgb(105, 79, 47);
+  color: rgba(233, 184, 125, 0.863);
 }
