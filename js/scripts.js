@@ -1,12 +1,15 @@
-function subsituteNumber(text) {
+function substituteNumber(text) {
   const values = text.split(", ");
 
-  const subsitutedValues = [];
+  const substitutedValues = [];
   values.forEach((value) => {
     if (value.includes("1")) {
-      subsitutedValues.push("Beep!");
+      substitutedValues.push("Beep!");
+    } else if (value.includes("2")) {
+      substitutedValues.push("Boop!");
     } else {
-      subsitutedValues.push(value);
+      substitutedValues.push(value);
     }
   });
-  return subsitutedValues.join(", ");
+  return substitutedValues.join(", ");
+}
