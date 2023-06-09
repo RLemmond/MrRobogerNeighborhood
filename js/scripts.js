@@ -15,3 +15,15 @@ function substituteNumber(text) {
   });
   return substitutedValues.join(", ");
 }
+
+function generateList(userInput) {
+  const substitutedNumbers = [];
+
+  Array.from({ length: userInput + 1 }, (_, index) => {
+    const substitutedNumber = substituteNumber(index.toString());
+    substitutedNumbers.push(substitutedNumber);
+  });
+
+  return substitutedNumbers;
+}
+console.log(generateList(5));
