@@ -14,9 +14,9 @@ Test 3: It should subsitute the numbers containing 3 with "Won't you be my neigh
 Code: beepBoop(3, 37, 333)
 Expected Output: "Won't you be my neighbor?" "Won't you be my neighbor?" "Won't you be my neighbor?"
 
-Test 4: 
-Code: beepBoop()
-Expected Output:
+Test 4: It should return the number itself for numbers not containing 1, 2, or 3
+Code: beepBoop(4, 5678, 987654)
+Expected Output: 4, 5678, 987654
 
 Test 5: 
 Code: beepBoop()
