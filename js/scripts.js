@@ -7,6 +7,8 @@ function substituteNumber(text) {
       substitutedValues.push("Beep!");
     } else if (value.includes("2")) {
       substitutedValues.push("Boop!");
+    } else if (value.includes("3")) {
+      substitutedValues.push("Won't you be my neighbor?");
     } else {
       substitutedValues.push(value);
     }
