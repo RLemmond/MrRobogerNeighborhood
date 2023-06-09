@@ -2,24 +2,22 @@
 <!-- Tests -->
 Describe: beepBoop()
 
-Test:  It should subsitute numbers containing 1 with "Beep!"
+Test 1:  It should subsitute numbers containing 1 with "Beep!"
 Code: beepBoop(1, 15, 123456)
 Expected Output: "Beep!" "Beep!" "Beep!"
 
-Test: 
+Test 2: 
 Code: beepBoop()
 Expected Output:
 
-Test: 
+Test 3: 
 Code: beepBoop()
 Expected Output:
 
-Test: 
+Test 4: 
 Code: beepBoop()
 Expected Output:
 
-Test: 
+Test 5: 
 Code: beepBoop()
 Expected Output:
-
-<!-- Prompt -->
