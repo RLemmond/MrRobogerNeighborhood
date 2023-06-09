@@ -22,6 +22,10 @@ Test: It should return the number itself for numbers not containing 1, 2, or 3
 Code: beepBoop(4, 5678, 987654)
 Expected Output: [4, 5678, 987654]
 
+Test: "It should substitute numbers containing 3 first, then 2, then 1, regardless of the presence of lower priority numbers"
+Code: beepBoop(13, 21, 32)
+Expected Output: ["Won't you be my neighbor?", "Boop!", "Won't you be my neighbor?"]
+
 Describe: generateList()
 
 Test: It should generate a list of the subsituted numbers from 0 to the user's number input
