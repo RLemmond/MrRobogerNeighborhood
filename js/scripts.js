@@ -16,14 +16,12 @@ function substituteNumber(text) {
   return substitutedValues.join(", ");
 }
 
-function generateList(userInput) {
+const generateList = (num) => {
   const substitutedNumbers = [];
 
-  Array.from({ length: userInput + 1 }, (_, index) => {
-    const substitutedNumber = substituteNumber(index.toString());
-    substitutedNumbers.push(substitutedNumber);
-  });
+  for (let i = 0; i <= num; i++) {
+    substitutedNumbers.push(substituteNumber(i.toString()));
+  }
 
   return substitutedNumbers;
-}
-console.log(generateList(5));
+};
