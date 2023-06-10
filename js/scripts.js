@@ -1,5 +1,5 @@
 function substituteNumber(text) {
-  const values = text.split(", ");
+  const values = text.split(",");
 
   const substitutedValues = [];
   values.forEach((value) => {
@@ -13,7 +13,7 @@ function substituteNumber(text) {
       substitutedValues.push(value);
     }
   });
-  return substitutedValues.join(", ");
+  return substitutedValues.join(",");
 }
 
 const generateList = (num) => {
